@@ -1,0 +1,73 @@
+
+vprasad@XE-T-VIVEKP MINGW64 /d/SparkCodes/git-2019
+$ git init .
+Initialized empty Git repository in D:/SparkCodes/git-2019/.git/
+
+vprasad@XE-T-VIVEKP MINGW64 /d/SparkCodes/git-2019 (master)
+$ git remote add origin https://github.com/The1vivek/Pyspark-codes.git
+
+vprasad@XE-T-VIVEKP MINGW64 /d/SparkCodes/git-2019 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        pyspark-programs/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+vprasad@XE-T-VIVEKP MINGW64 /d/SparkCodes/git-2019 (master)
+$ git add .
+warning: LF will be replaced by CRLF in pyspark-programs/Keywords.ipynb.
+The file will have its original line endings in your working directory
+
+vprasad@XE-T-VIVEKP MINGW64 /d/SparkCodes/git-2019 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   pyspark-programs/Keywords.ipynb
+
+
+vprasad@XE-T-VIVEKP MINGW64 /d/SparkCodes/git-2019 (master)
+$ ls
+pyspark-programs/
+
+vprasad@XE-T-VIVEKP MINGW64 /d/SparkCodes/git-2019 (master)
+$ git commit -m "pyspark sample code"
+[master (root-commit) bc19fcc] pyspark sample code
+ Committer: Vivek Prasad <vprasad@XEBIAINDIA.LOCAL>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 182 insertions(+)
+ create mode 100644 pyspark-programs/Keywords.ipynb
+
+vprasad@XE-T-VIVEKP MINGW64 /d/SparkCodes/git-2019 (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 1.29 KiB | 1.29 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/The1vivek/Pyspark-codes.git
+ * [new branch]      master -> master
+
+vprasad@XE-T-VIVEKP MINGW64 /d/SparkCodes/git-2019 (master)
